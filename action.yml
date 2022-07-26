@@ -1,0 +1,17 @@
+name: 'Discussions'
+description: 'Actions to Manage discussions'
+inputs:
+  title:  # id of input
+    description: 'Title of the discussion'
+    required: true
+    default: 'New discussion'
+  content:
+    description: 'Content of the description'
+    required: true
+    default: 'Discussion'
+# outputs:
+#   time: # id of output
+#     description: 'The time we greeted you'
+runs:
+  using: 'node16'
+  main: 'index.js'
